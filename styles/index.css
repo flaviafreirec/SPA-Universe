@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    
+}
+
+nav a {
+    color: #C4C4CC;
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
+nav a:hover {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+nav {
+    
+    height: clamp(8rem, 8rem + 30vh, 12.2rem);
+    
+    display: flex;
+    
+    align-items: center;
+    gap: 4.8rem;
+    padding-left: 4.2rem;
+    padding-top: 2.5rem;
+}
